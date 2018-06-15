@@ -5,7 +5,7 @@
 		"expiresIn":86400
 	},
 	"upload_config":{
-		"baseURL":"http://127.0.0.1:8888",//
+		"baseURL":"http://127.0.0.1:8888",
 		"upload_ueditor":"uploads/ueditor",
 		"simple_upload_redirect":"http://127.0.0.1/reload"
 	},
@@ -13,8 +13,8 @@
 		"protocol" : "mysql",
 		"host" : "127.0.0.1",
 		"database" : "itcast",
-		"user" : "test",
-		"password" : "test",
+		"user" : "root",
+		"password" : "root",
 		"port" : 3306	
 	}
 }
