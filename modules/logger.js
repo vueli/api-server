@@ -10,7 +10,6 @@ exports.logger = function (level) {
     logger.level = 'debug';
     return logger;
 };
-
 // 配合 express 使用的方法
 // exports.use = function (app, level) {
 //     app.use(log4js.connectLogger(log4js.getLogger('logInfo'), {

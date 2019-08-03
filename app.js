@@ -7,9 +7,6 @@ var mount = require('mount-routes');
 
 var app = express();
 
-
-
-
 /**
  *
  * 公共系统初始化
@@ -96,7 +93,7 @@ app.all('/ueditor/ue', function(req, res, next) {
 	res.header("X-Powered-By",' 3.2.1')
 	if(req.method=="OPTIONS") res.send(200);/*让options请求快速返回*/
 	else  next()
-});
+});  
 
 // 富文本编辑器上传
 var ueditor = require(path.join(process.cwd(),"/modules/ueditor"));

@@ -2,6 +2,7 @@
 module.exports = function(req, res, next){
 	res.sendResult = function(data,code,message) {
 		var fmt = req.query.fmt ? req.query.fmt : "rest";
+		console.log(fmt);
 		if(fmt == "rest") {
 			res.json(
 			{
