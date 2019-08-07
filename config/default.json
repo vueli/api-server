@@ -11,10 +11,10 @@
 	},
 	"db_config" : {
 		"protocol" : "mysql",
-		"host" : "127.0.0.1",
-		"database" : "itcast",
-		"user" : "root",
-		"password" : "root",
+		"host" : "w.rdc.sae.sina.com.cn",
+		"database" : "app_master",
+		"user" : "nyw55onxjj",
+		"password" : "iihk0lkz2yxz3yk3431h44hjk12y2wl3x54h1xzx",
 		"port" : 3306	
 	}
 }
